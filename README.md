@@ -11,7 +11,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/hydra
-[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/hydra.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/hydra.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-nzbhydra)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-nzbhydra/)
+[![](https://images.microbadger.com/badges/image/lsioarmhf/hydra.svg)](http://microbadger.com/images/lsioarmhf/hydra "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/hydra.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/hydra.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-nzbhydra)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-nzbhydra/)
 [hub]: https://hub.docker.com/r/lsioarmhf/hydra/
 
 NZBHydra is a meta search for NZB indexers and the "spiritual successor" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers. [hydra](https://github.com/theotherp/nzbhydra)
@@ -65,4 +65,5 @@ The web interface is at `<your ip>:5075` , to set up indexers and connections to
 
 ## Versions
 
++ **11.09.16:** Add layer badges to README.
 + **07.09.16:** Initial Release.
