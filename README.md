@@ -79,6 +79,7 @@ The web interface is at `<your ip>:5075` , to set up indexers and connections to
 
 ## Versions
 
++ **07.02.16:** Rebase to alpine 3.5. 
 + **07.11.16:** Move git clone internal to the container, 
 point config, database and log to use same locations for existing users.
 + **14.10.16:** Add version layer information.
