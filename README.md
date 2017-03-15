@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://github.com/theotherp/nzbhydra
+[hub]: https://hub.docker.com/r/lsioarmhf/hydra/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/hydra
 [![](https://images.microbadger.com/badges/version/lsioarmhf/hydra.svg)](https://microbadger.com/images/lsioarmhf/hydra "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/hydra.svg)](http://microbadger.com/images/lsioarmhf/hydra "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/hydra.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/hydra.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-nzbhydra)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-nzbhydra/)
-[hub]: https://hub.docker.com/r/lsioarmhf/hydra/
 
 NZBHydra is a meta search for NZB indexers and the "spiritual successor" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers. [hydra](https://github.com/theotherp/nzbhydra)
 
-[![hydra](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png)][hydraurl]
-[hydraurl]: https://github.com/theotherp/nzbhydra
+[![hydra](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png)][appurl]
 
 ## Usage
 
