@@ -9,10 +9,14 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 # set python to use utf-8 rather than ascii
 ENV PYTHONIOENCODING="UTF-8"
 
+# install app
+RUN \
+ git clone --depth 1 https://github.com/theotherp/nzbhydra /app/hydra
+
 # copy local files
 COPY root/ /
 
 # ports and volumes
 EXPOSE 5075
-# WORKDIR /config/hydra
+# WORKDIR /config/hydra
 VOLUME /config /downloads
