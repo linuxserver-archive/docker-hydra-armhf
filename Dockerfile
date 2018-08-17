@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.python.armhf:3.7
+FROM lsiobase/alpine.python.armhf:3.8
 
 # set version label
 ARG BUILD_DATE
@@ -18,5 +18,5 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 5075
-# WORKDIR /config/hydra
+# WORKDIR /config/hydra
 VOLUME /config /downloads
