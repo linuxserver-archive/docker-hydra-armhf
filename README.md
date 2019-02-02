@@ -5,7 +5,7 @@
 [appurl]: https://github.com/theotherp/nzbhydra
 [hub]: https://hub.docker.com/r/lsioarmhf/hydra/
 
-THIS IMAGE IS DEPRECATED. PLEASE USE THE MULTI-ARCH IMAGES AT `linuxserver/hydra
+THIS IMAGE IS DEPRECATED. PLEASE USE THE MULTI-ARCH IMAGES AT `linuxserver/hydra`
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
